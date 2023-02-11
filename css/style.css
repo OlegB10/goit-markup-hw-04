@@ -154,7 +154,15 @@ color: #404BBF
 /* ----------------------------- HERO ---------------------------*/
 
 .hero {
+    max-width: 1440px;
     background-color: #2E2F42;
+    background-image: linear-gradient(
+       rgba(46, 47, 66, 0.7), 
+       rgba(46, 47, 66, 0.7)
+       ), url(../images/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     padding-top: 188px;
     padding-bottom: 188px;
    }
